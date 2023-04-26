@@ -71,6 +71,7 @@ body{
     padding: 15px 15px;
     border: none;
     border-radius: 50%;
+    border: 1px solid hsl(235, 19%, 35%);
 }
 
 .main .input input{
@@ -141,5 +142,11 @@ body{
 @media (max-width: 703px){
     .main{
         width: 400px;
+    }
+}
+
+@media (max-width: 400px){
+    .main{
+        width: 300px;
     }
 }

@@ -25,13 +25,14 @@
     <div class="main">
       <div class="text">
         <h1>Todo</h1>
-        <img src="./images/icon-sun.svg" alt="" style="cursor: pointer;" onclick="changeMode()">
+        <img src="./images/icon-sun.svg" alt="" style="cursor: pointer;"  class="mod">
       </div>
       <div class="input">
         <button class="add" style="cursor: pointer;" onclick="addTodo()"></button>
         <input type="text" placeholder="Create a new todo...">
       </div>
       <div class="list">
+        <div class="todos" style="display: none;"></div>
         <div class="info">
           <p class="items"><span id="nm">0</span> items left</p>
           <div class="all">
